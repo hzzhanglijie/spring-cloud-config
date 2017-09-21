@@ -1,0 +1,21 @@
+debug: false
+
+server:
+    port: 7890
+
+spring:
+    application.name: config-server
+    cloud.config:
+        server:
+            git:
+              uri: https://github.com/hzzhanglj/spring-cloud-config
+              username: *******
+              password: *******
+              searchPaths: config-repo
+        label: master
+
+logging:
+    file: info.log
+    level:
+        root: INFO
+
