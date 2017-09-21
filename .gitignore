@@ -1,8 +1,5 @@
 .idea/
 spring-cloud-config.iml
-src/main/resources/
-src/main/scala/
 src/test/
-.DS_Store
-src/.DS_Store
-src/main/.DS_Store
+*.log
+target/
