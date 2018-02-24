@@ -1,0 +1,17 @@
+debug: false
+
+server:
+    port: 8881
+
+spring:
+    application.name: config-client
+    cloud.config:
+        label: master
+        profile: dev
+        uri: http://localhost:7890/
+
+logging:
+    file: info.log
+    level:
+        root: INFO
+

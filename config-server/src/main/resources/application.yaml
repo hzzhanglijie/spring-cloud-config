@@ -9,8 +9,8 @@ spring:
         server:
             git:
               uri: https://github.com/hzzhanglj/spring-cloud-config
-              username: *******
-              password: *******
+              username: hzzhanglijie
+              password: zlj214662154
               searchPaths: config-repo
         label: master
 
